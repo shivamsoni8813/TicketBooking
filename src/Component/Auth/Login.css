@@ -1,0 +1,38 @@
+.login{
+        width: 98.78vw;
+        height: 100vh;
+        background-image: url('../Images/backgroudForAuth.avif');
+        color: white;
+        z-index: 2;
+        opacity: 0.9;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    
+}
+.loginContainer{
+    height: 90vh;
+    width: 40vw;
+    box-shadow: 2rem 2rem 2rem 2rem black;
+}
+.loginInfo{
+    padding-top: 3rem;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+}
+.Loginpicture{
+    width: 10vw;
+    height: 10vh;
+    background-image: url('../Images//logo2.png');
+    background-position: center;
+    background-size: cover;
+}

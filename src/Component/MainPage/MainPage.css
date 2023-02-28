@@ -1,0 +1,153 @@
+.mainPage{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.mainPageContainer{
+    width: 100vw;
+    height: 98vh;
+    background-image: url('../Images/backgroudForAuth.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    padding-top: 10rem;
+    opacity: 0.9;
+}
+.heading{
+    font-size: 4rem;
+}
+.heading2{
+    font-size: 4rem;
+}
+.contant{
+    padding-top: 1rem;
+    font-size: 2.5rem;
+
+}
+.midSection{
+    margin-left: 4rem;
+    width: 90vw;
+    height: 50vh;
+    background-color: rgb(46, 42, 42);
+    z-index: -1;
+    padding-top: 3rem;
+ 
+}
+.mid{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+.movieBtn{
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background-image: linear-gradient(black ,white);
+    z-index: -1;
+}
+.searchPanel{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 70vw ;
+    height: 18vh;
+    background-color: rgb(34, 32, 32);
+    margin-left: 8rem;
+}
+
+::placeholder{
+    color: white;
+}
+::placeholder{
+    color: black;
+}
+
+input[type="search"]::-webkit-input-placeholder{
+    color: white;
+}
+.searchInput
+{
+    border: none;
+    background: none;
+}
+.searchForm{
+    width: 22rem;
+    border-radius: 10px;
+    border-bottom: 0.3rem solid black;
+}
+.place{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-size: cover;
+    object-fit: cover;
+}
+.city li{
+    list-style: none;
+}
+.dateImg{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-size: cover;
+    object-fit: cover;   
+}
+.searchPanel{
+    display: flex;
+    justify-content: space-around;
+}
+.movieSection
+{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.moviesWrapper{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+.movieHead{
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.showMovies{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.moviesCard{
+    width: 85vw;
+    overflow: scroll;
+    
+}
+.moviesCard::-webkit-scrollbar {
+    display: none;
+}
+
+.movieList{
+    position: relative;
+    animation-name: h1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    cursor: pointer;
+}
+@keyframes h1 {
+    0%{
+        transform: translateX(100);
+    }
+    100%{
+        transform: translateX(calc(-10rem*25));
+    }
+    
+}

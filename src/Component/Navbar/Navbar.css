@@ -1,0 +1,14 @@
+.logo{
+    background-image: url('../Images/logo2.png');
+    background-position: center;
+    background-size: cover;
+    width: 7vw;
+    background-color: black;
+    background-repeat: no-repeat;
+    height: 10vh;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.navbar{
+    width: 100vw;
+}

@@ -1,0 +1,62 @@
+.homeContainer{
+    width: 98.5vw;
+    height: 100vh;
+}
+.home{
+    width: 98.7vw;
+    height: 70vh;
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../Images/homeBackGround.jpg');
+    /* opacity: 0.9; */
+    color: rgb(146, 139, 139);
+    padding-top: 15rem;
+    opacity: 0.9;
+}
+.homeImg{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width: 20vw;
+    height: 55vh;
+    background-image: url('../Images/homeBackGround.jpg');
+    opacity: 10;
+    background-size: cover;
+}
+.homeNav{
+    width: 98.7vw;
+    height: 20vh;
+    background-color: rgb(27, 27, 27);
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+.homeNavIngo{
+    display: flex;
+    margin-left: 25rem;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 3rem;
+
+}
+
+.homeSpan{
+    padding-left: 20rem;
+    font-size: 2rem;
+    color: wheat;
+}
+.homeLang{
+    width: 98vw;
+    padding-left: 20rem;
+    font-size: 1rem;
+    color: wheat;
+}
+.Horrorbtn{
+    margin-left: 20rem;
+    background: none;
+    color: white;
+    border-radius: 10px;
+    
+}
